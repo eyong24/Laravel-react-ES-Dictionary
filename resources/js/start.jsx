@@ -1,11 +1,12 @@
 import React from "react";
-import Project1 from "./PROJECTS/reactpage";
-
+import Dashboard2 from "./ES-Dictionary/Dashboard2";
+import Sidebar from "./ES-Dictionary/Dashboard 2/Sidebar";
+import Main from "./ES-Dictionary/Dashboard 2/Main";
 export default function Start(){
     return (
-        <div>
-            <h1>HELLO REACT IN LARAVEL</h1>
-            <Project1/>
+        <div className="container">
+            <Sidebar/>
+            <Main/>
         </div>
     )
 

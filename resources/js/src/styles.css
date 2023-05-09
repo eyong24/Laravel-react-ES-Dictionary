@@ -35,10 +35,8 @@ main {
 }
 
 .sidebar {
-    left: 0;
-    position: absolute;
+    position: fixed;
     width: 320px;
-    z-index: 3;
 }
 
 .sidebar .top  {
@@ -429,7 +427,6 @@ i {
 }
 
 .upper img {
-    content: url('../image/dictionary/apple.jpg');
     width: 30vh;
 }
 

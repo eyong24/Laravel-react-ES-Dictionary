@@ -14,15 +14,15 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
-
-                    <div id="root"></div>
-                    <script src="{{ asset('js/app.js') }}" defer></script>
-                </div>
+                    <!-- {{ __('You are logged in!') }} -->
             </div>
         </div>
     </div>
 </div>
+<div id="root"></div>
+                    <script src="{{ asset('js/app.js') }}" defer></script>
+                    <script src="https://kit.fontawesome.com/6b203b1712.js" crossorigin="anonymous"></script>
+                </div>
 @endsection
 
 
